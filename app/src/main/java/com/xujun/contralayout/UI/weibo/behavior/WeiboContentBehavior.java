@@ -2,7 +2,6 @@ package com.xujun.contralayout.UI.weibo.behavior;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.support.design.widget.CoordinatorLayout;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -12,6 +11,8 @@ import com.xujun.contralayout.R;
 import com.xujun.contralayout.base.BaseAPP;
 
 import java.util.List;
+
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 /**
  * 可滚动的 Content Behavior

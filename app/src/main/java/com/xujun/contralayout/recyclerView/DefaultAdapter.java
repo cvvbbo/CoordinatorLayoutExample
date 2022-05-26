@@ -1,9 +1,10 @@
 package com.xujun.contralayout.recyclerView;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * @ explain:

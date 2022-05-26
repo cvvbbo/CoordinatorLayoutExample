@@ -51,13 +51,13 @@
             app:tabSelectedTextColor="@color/colorPrimaryLight"
             app:tabTextColor="@color/colorPrimaryIcons" />
 
-        <android.support.v4.view.ViewPager
+        <androidx.core.view.ViewPager
             android:id="@+id/id_uc_news_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#F0F4C3">
 
-        </android.support.v4.view.ViewPager>
+        </androidx.core.view.ViewPager>
     </LinearLayout>
 
     <!--search 部分-->

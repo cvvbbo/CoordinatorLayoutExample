@@ -5,11 +5,11 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.LayoutManager;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
+
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 /**
  * @ explain:针对GridLayoutManger的分割线
@@ -38,7 +38,7 @@ public class DividerGridItemDecoration extends RecyclerView.ItemDecoration {
     private int getSpanCount(RecyclerView parent) {
         // 列数
         int spanCount = -1;
-        LayoutManager layoutManager = parent.getLayoutManager();
+        RecyclerView.LayoutManager layoutManager = parent.getLayoutManager();
         if (layoutManager instanceof GridLayoutManager) {
 
             spanCount = ((GridLayoutManager) layoutManager).getSpanCount();
@@ -84,7 +84,7 @@ public class DividerGridItemDecoration extends RecyclerView.ItemDecoration {
 
     private boolean isLastColum(RecyclerView parent, int pos, int spanCount,
                                 int childCount) {
-        LayoutManager layoutManager = parent.getLayoutManager();
+        RecyclerView.LayoutManager layoutManager = parent.getLayoutManager();
         if (layoutManager instanceof GridLayoutManager) {
             if ((pos + 1) % spanCount == 0)
             // 如果是最后一列，则不需要绘制右边
@@ -110,7 +110,7 @@ public class DividerGridItemDecoration extends RecyclerView.ItemDecoration {
 
     private boolean isLastRaw(RecyclerView parent, int pos, int spanCount,
                               int childCount) {
-        LayoutManager layoutManager = parent.getLayoutManager();
+        RecyclerView.LayoutManager layoutManager = parent.getLayoutManager();
         if (layoutManager instanceof GridLayoutManager) {
             childCount = childCount - childCount % spanCount;
             if (pos >= childCount)// 如果是最后一行，则不需要绘制底部

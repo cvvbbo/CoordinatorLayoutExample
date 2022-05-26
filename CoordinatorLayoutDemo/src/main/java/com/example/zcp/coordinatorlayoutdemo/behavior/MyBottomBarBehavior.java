@@ -1,10 +1,12 @@
 package com.example.zcp.coordinatorlayoutdemo.behavior;
 
 import android.content.Context;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.google.android.material.appbar.AppBarLayout;
+
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 /**
  * Created by 赵晨璞 on 2016/7/4.

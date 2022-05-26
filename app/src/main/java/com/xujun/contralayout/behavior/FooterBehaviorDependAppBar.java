@@ -1,11 +1,13 @@
 package com.xujun.contralayout.behavior;
 
 import android.content.Context;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+
+import com.google.android.material.appbar.AppBarLayout;
+
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 /**
  * 知乎效果底部behavior 依赖于 AppBarLayout

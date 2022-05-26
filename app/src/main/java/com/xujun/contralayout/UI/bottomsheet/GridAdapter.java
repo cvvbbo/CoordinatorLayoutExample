@@ -1,7 +1,6 @@
 package com.xujun.contralayout.UI.bottomsheet;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +10,8 @@ import com.squareup.picasso.Picasso;
 import com.xujun.contralayout.R;
 
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * 博客地址：http://blog.csdn.net/gdutxiaoxu

@@ -1,10 +1,11 @@
 package com.xujun.contralayout.base;
 
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
 import android.view.View;
 
+import com.google.android.material.tabs.TabLayout;
 import com.xujun.contralayout.R;
+
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * @author xujun  on 2016/12/2.

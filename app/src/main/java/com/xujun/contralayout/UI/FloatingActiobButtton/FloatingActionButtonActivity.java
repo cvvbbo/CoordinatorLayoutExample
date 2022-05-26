@@ -1,15 +1,16 @@
 package com.xujun.contralayout.UI.FloatingActiobButtton;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 
 import com.xujun.contralayout.R;
 import com.xujun.contralayout.adapter.ItemAdapter;
 import com.xujun.contralayout.recyclerView.divider.DividerItemDecoration;
 
 import java.util.ArrayList;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class FloatingActionButtonActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;

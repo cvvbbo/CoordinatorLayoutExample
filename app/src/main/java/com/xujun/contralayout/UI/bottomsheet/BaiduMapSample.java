@@ -2,14 +2,7 @@ package com.xujun.contralayout.UI.bottomsheet;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.support.v7.widget.Toolbar;
+
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.TypedValue;
@@ -18,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.squareup.picasso.Picasso;
@@ -28,6 +22,14 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 public class BaiduMapSample extends AppCompatActivity implements GridAdapter.OnRecyclerViewItemClickListener {
 
@@ -40,7 +42,7 @@ public class BaiduMapSample extends AppCompatActivity implements GridAdapter.OnR
     private int page=1;
     private SwipeRefreshLayout swipeRefreshLayout;
     private RelativeLayout design_bottom_sheet,design_bottom_sheet_bar;
-    private  BottomSheetBehavior behavior;
+    private BottomSheetBehavior behavior;
     private ImageView bottom_sheet_iv;
     private TextView bottom_sheet_tv;
 

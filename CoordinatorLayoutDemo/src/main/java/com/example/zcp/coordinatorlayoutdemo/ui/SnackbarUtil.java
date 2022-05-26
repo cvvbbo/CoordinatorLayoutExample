@@ -1,7 +1,6 @@
 package com.example.zcp.coordinatorlayoutdemo.ui;
 
 import android.graphics.Color;
-import android.support.design.widget.Snackbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.zcp.coordinatorlayoutdemo.R;
+import com.google.android.material.snackbar.Snackbar;
 
 /**
  * Created by 赵晨璞 on 2016/6/16.

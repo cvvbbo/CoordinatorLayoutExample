@@ -1,9 +1,9 @@
 package com.xujun.contralayout.UI.bottomsheet;
 
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.design.widget.BottomSheetDialog;
 import android.view.View;
 
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.xujun.contralayout.R;
 import com.xujun.contralayout.base.BaseMVPActivity;
 import com.xujun.contralayout.base.mvp.IBasePresenter;

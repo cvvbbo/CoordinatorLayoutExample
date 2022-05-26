@@ -1,15 +1,13 @@
 package com.xujun.contralayout.UI.zhihu;
 
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import com.google.android.material.appbar.AppBarLayout;
 import com.xujun.contralayout.R;
 import com.xujun.contralayout.UI.ItemFragement;
 import com.xujun.contralayout.adapter.ZhiHuAdapter;
@@ -17,6 +15,9 @@ import com.xujun.contralayout.utils.AnimatorUtil;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 public class ZhiHuHomeActivity extends AppCompatActivity {
 

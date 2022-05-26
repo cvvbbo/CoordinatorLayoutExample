@@ -1,16 +1,11 @@
 package com.xujun.contralayout.UI.toolBar;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.xujun.contralayout.R;
 import com.xujun.contralayout.adapter.ItemAdapter;
 import com.xujun.contralayout.recyclerView.divider.DividerItemDecoration;
@@ -18,6 +13,12 @@ import com.xujun.contralayout.utils.WriteLogUtil;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class ToolBarSampleSnar extends AppCompatActivity {
 

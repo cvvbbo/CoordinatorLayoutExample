@@ -1,9 +1,10 @@
 package com.xujun.contralayout.UI.cardView;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 import com.xujun.contralayout.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CardViewSample extends AppCompatActivity {
 
